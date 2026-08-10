@@ -1,0 +1,18 @@
+field,value
+root,/Users/seanearley/Documents/LBNL_Phase_4
+scenarios,"anonymized-1in10-midDemand-with_EE_FS-2025, anonymized-1in2-midDemand-with_EE_FS-2025"
+generated,2026-08-10T09:17:59
+clusters_selected,14
+customers_total,141947
+customers_by_scenario,"{'anonymized-1in10-midDemand-with_EE_FS-2025': 70974.0, 'anonymized-1in2-midDemand-with_EE_FS-2025': 70974.0}"
+per_customer,True
+layout,"one file/tab per (scenario, cluster) - see Selection's 'tab' (xlsx) or 'csv_file' (csv) column for the mapping. Each one has the 8760-hour series (gross/net/pv_generation and every included end-use) as raw per-customer kWh, plus a '<series>_normalized' column next to each one, scaled to sum to 1 over the year."
+gross_formula,"sum of non-excluded end-use columns, each mode-adjusted (average = raw cluster value; typical = raw value / that row's own penetration for that end use) before any per-customer/absolute scaling"
+net_formula,"gross - pv_generation (pv_generation is always a credit, never a selectable end-use)"
+pv_generation,"reported as its own column, not folded into gross or net"
+counterfactual_columns,"gross_excl_<end_use> / net_excl_<end_use> added for: ['cooling', 'heating']"
+mode_counts,"{'average': 266, 'typical': 28}"
+mode_warnings,(none)
+global_overrides_applied,"{'cooking': 'average', 'dishwasher': 'average', 'dryer': 'average', 'freezer': 'average', 'indoor_lighting': 'average', 'office_equipment': 'average', 'other': 'average', 'outdoor_lighting': 'average', 'pc': 'average', 'pool_pump': 'average', 'refrigeration': 'average', 'spa_heater': 'average', 'spa_pump': 'average', 'television': 'average', 'ventilation': 'average', 'washer': 'average', 'cooling': 'typical', 'ev_level1': 'average', 'ev_level2': 'average', 'heating': 'typical', 'water_heating': 'average'} (28 rows changed)"
+per_row_per_end_use_choices,"see the EndUseModes sheet - the exact mode and penetration used for every (scenario, cluster, end_use) row, AFTER any global overrides were applied"
+normalize_caveat,"each '<series>_normalized' column is independently scaled to sum to 1 by its OWN total. gross = net + pv_generation, and gross_excl_X = gross - X's contribution, hold on the raw kWh columns but NOT across normalized columns - they are separate shapes, not related magnitudes, once normalized."
