@@ -1,13 +1,13 @@
-month,scenario,weather_year,forecast_year,utility,peak_date_hour_ending_local,hour_ending,net_peak_load_kw,pct_residential,pct_commercial_buildings,pct_mhdev_fleet,pct_industrial,pct_agriculture,pct_other
-Jan,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Jan 24, 07:00-08:00",560,18080614,41.1,35.4,8.0,8.2,2.8,4.6
-Feb,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Feb 12, 18:00-19:00",1027,18008227,50.7,27.5,8.1,7.2,2.3,4.3
-Mar,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Mar 13, 06:00-07:00",1711,17698245,39.9,35.6,9.1,8.1,2.9,4.4
-Apr,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Apr 24, 19:00-20:00",2732,17192445,45.9,26.9,7.9,8.1,6.5,4.7
-May,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"May 29, 19:00-20:00",3572,17907578,49.1,26.5,7.6,7.3,5.4,4.1
-Jun,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Jun 12, 19:00-20:00",3908,21429779,52.0,24.1,6.4,6.6,7.2,3.8
-Jul,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Jul 25, 18:00-19:00",4939,20778744,46.7,26.9,7.0,7.2,8.5,3.7
-Aug,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Aug 15, 19:00-20:00",5444,20939971,50.5,23.7,6.5,7.7,7.6,4.0
-Sep,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Sep 3, 18:00-19:00",5899,20217981,47.8,26.3,7.2,7.7,7.1,4.0
-Oct,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Oct 8, 18:00-19:00",6739,17606914,44.4,28.8,8.2,8.2,5.6,4.7
-Nov,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Nov 26, 18:00-19:00",7915,17710317,51.3,26.4,8.2,7.1,2.9,4.1
-Dec,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Dec 16, 18:00-19:00",8395,18456236,52.7,25.9,7.9,7.0,2.4,4.1
+month,scenario,weather_year,forecast_year,utility,peak_date_hour_ending_local,hour_ending,net_peak_load_kw,pct_residential_non_ev,pct_residential_ev,pct_commercial_buildings,pct_mhdev_fleet,pct_industrial,pct_agriculture,pct_other
+Jan,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Jan 24, 07:00-08:00",560,18080614,40.1,1.0,35.4,8.0,8.2,2.8,4.6
+Feb,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Feb 12, 18:00-19:00",1027,18008227,40.9,9.8,27.5,8.1,7.2,2.3,4.3
+Mar,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Mar 13, 06:00-07:00",1711,17698245,38.7,1.1,35.6,9.1,8.1,2.9,4.4
+Apr,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Apr 24, 19:00-20:00",2732,17192445,35.6,10.3,26.9,7.9,8.1,6.5,4.7
+May,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"May 29, 19:00-20:00",3572,17907578,41.3,7.8,26.5,7.6,7.3,5.4,4.1
+Jun,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Jun 12, 19:00-20:00",3908,21429779,43.2,8.7,24.1,6.4,6.6,7.2,3.8
+Jul,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Jul 25, 18:00-19:00",4939,20778744,38.7,8.0,26.9,7.0,7.2,8.5,3.7
+Aug,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Aug 15, 19:00-20:00",5444,20939971,41.4,9.1,23.7,6.5,7.7,7.6,4.0
+Sep,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Sep 3, 18:00-19:00",5899,20217981,39.7,8.1,26.3,7.2,7.7,7.1,4.0
+Oct,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Oct 8, 18:00-19:00",6739,17606914,35.0,9.4,28.8,8.2,8.2,5.6,4.7
+Nov,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Nov 26, 18:00-19:00",7915,17710317,41.3,9.9,26.4,8.2,7.1,2.9,4.1
+Dec,anonymized-1in2-midDemand-with_EE_FS-2040,1-in-2,2040,pge,"Dec 16, 18:00-19:00",8395,18456236,42.6,10.1,25.9,7.9,7.0,2.4,4.1
